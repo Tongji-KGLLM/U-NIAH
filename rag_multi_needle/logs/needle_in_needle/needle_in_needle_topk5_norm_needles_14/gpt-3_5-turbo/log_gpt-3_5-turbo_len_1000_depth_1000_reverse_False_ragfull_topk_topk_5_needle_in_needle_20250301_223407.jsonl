@@ -1,0 +1,72 @@
+2025-03-01 22:34:07,993 - 日志文件路径: /Users/gyf/workplace/LongContextEvo/U-NIAH/rag_multi_needle/logs/needle_in_needle/needle_in_needle_topk5_norm_needles_14/gpt-3_5-turbo/log_gpt-3_5-turbo_len_1000_depth_1000_reverse_False_ragfull_topk_topk_5_needle_in_needle_20250301_223407.jsonl
+2025-03-01 22:34:07,994 - 
+==================================================
+2025-03-01 22:34:07,994 - 初始化RAG Pipeline
+2025-03-01 22:34:07,994 - --------------------------------------------------
+2025-03-01 22:34:07,994 - 配置信息:
+{
+  "file_path": " Additionally, the course emphasizes the importance of ethical considerations when manipulating elem",
+  "model_name": "gpt-3.5-turbo",
+  "embedding_model": "text-embedding-3-small",
+  "chunk_size": 600,
+  "chunk_overlap": 100,
+  "persist_directory": "./rag_multi_needle/chroma_db/needle_in_needle",
+  "collection_name": "PaulG_needl_len_1000_depth_1000_RAG",
+  "top_k": null,
+  "log_file": "./rag_multi_needle/logs/needle_in_needle/needle_in_needle_topk5_norm_needles_14/gpt-3_5-turbo/log_gpt-3_5-turbo_len_1000_depth_1000_reverse_False_ragfull_topk_topk_5_needle_in_needle_20250301_223407.jsonl",
+  "context_mode": "topk",
+  "max_length": 1000
+}
+2025-03-01 22:34:07,994 - ==================================================
+
+2025-03-01 22:34:07,994 - 正在初始化LLM和Embedding模型...
+2025-03-01 22:34:08,187 - 使用的LLM provider: openai
+2025-03-01 22:34:08,382 - 正在加载文档
+2025-03-01 22:34:08,382 - 正在进行文档分割...
+2025-03-01 22:34:08,384 - 文档已分割成 27 个子文档
+2025-03-01 22:34:08,384 - 上下文检索top_k_retrieval: 27
+2025-03-01 22:34:08,384 - 创建新的向量存储...
+2025-03-01 22:34:11,021 - 已添加 27 个文档到向量存储
+2025-03-01 22:34:11,625 - 
+==================================================
+2025-03-01 22:34:11,625 - 新的异步查询请求
+2025-03-01 22:34:11,625 - --------------------------------------------------
+2025-03-01 22:34:11,625 - 查询信息:
+{
+  "timestamp": "2025-03-01T22:34:11.625521",
+  "question": "What are all the required magical courses for first-year students at Starlight Academy?",
+  "config": {
+    "file_path": " Additionally, the course emphasizes the importance of ethical considerations when manipulating elem",
+    "model_name": "gpt-3.5-turbo",
+    "embedding_model": "text-embedding-3-small",
+    "chunk_size": 600,
+    "chunk_overlap": 100,
+    "persist_directory": "./rag_multi_needle/chroma_db/needle_in_needle",
+    "collection_name": "PaulG_needl_len_1000_depth_1000_RAG",
+    "top_k": null,
+    "log_file": "./rag_multi_needle/logs/needle_in_needle/needle_in_needle_topk5_norm_needles_14/gpt-3_5-turbo/log_gpt-3_5-turbo_len_1000_depth_1000_reverse_False_ragfull_topk_topk_5_needle_in_needle_20250301_223407.jsonl",
+    "context_mode": "topk",
+    "max_length": 1000,
+    "llm_provider": "openai"
+  }
+}
+2025-03-01 22:34:11,625 - ==================================================
+
+2025-03-01 22:34:11,630 - 
+--------------------------------------------------
+2025-03-01 22:34:11,630 - 开始文档检索
+2025-03-01 22:34:11,630 - --------------------------------------------------
+2025-03-01 22:34:12,530 - 
+--------------------------------------------------
+2025-03-01 22:34:12,531 - 开始生成回答
+2025-03-01 22:34:12,531 - --------------------------------------------------
+2025-03-01 22:34:14,090 - 生成的回答:
+Astral Navigation, Magical Instruments Mastery, Dream Interpretation, Basic Potion Making, Elemental Magic Control, Magical Ethics & Safety, Magical Creatures Care
+2025-03-01 22:34:14,090 - --------------------------------------------------
+
+2025-03-01 22:34:14,092 - 
+==================================================
+2025-03-01 22:34:14,092 - 异步查询完成
+2025-03-01 22:34:14,092 - --------------------------------------------------
+2025-03-01 22:34:14,092 - ==================================================
+

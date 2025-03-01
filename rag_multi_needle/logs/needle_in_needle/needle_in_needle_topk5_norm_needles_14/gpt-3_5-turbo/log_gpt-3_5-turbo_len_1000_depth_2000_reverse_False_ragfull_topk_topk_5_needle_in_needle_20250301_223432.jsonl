@@ -1,0 +1,29 @@
+2025-03-01 22:34:32,559 - 日志文件路径: /Users/gyf/workplace/LongContextEvo/U-NIAH/rag_multi_needle/logs/needle_in_needle/needle_in_needle_topk5_norm_needles_14/gpt-3_5-turbo/log_gpt-3_5-turbo_len_1000_depth_2000_reverse_False_ragfull_topk_topk_5_needle_in_needle_20250301_223432.jsonl
+2025-03-01 22:34:32,559 - 
+==================================================
+2025-03-01 22:34:32,560 - 初始化RAG Pipeline
+2025-03-01 22:34:32,560 - --------------------------------------------------
+2025-03-01 22:34:32,560 - 配置信息:
+{
+  "file_path": " Advanced Elemental Manipulation In the second year,not in the frist year, students delve deeper int",
+  "model_name": "gpt-3.5-turbo",
+  "embedding_model": "text-embedding-3-small",
+  "chunk_size": 600,
+  "chunk_overlap": 100,
+  "persist_directory": "./rag_multi_needle/chroma_db/needle_in_needle",
+  "collection_name": "PaulG_needl_len_1000_depth_2000_RAG",
+  "top_k": null,
+  "log_file": "./rag_multi_needle/logs/needle_in_needle/needle_in_needle_topk5_norm_needles_14/gpt-3_5-turbo/log_gpt-3_5-turbo_len_1000_depth_2000_reverse_False_ragfull_topk_topk_5_needle_in_needle_20250301_223432.jsonl",
+  "context_mode": "topk",
+  "max_length": 1000
+}
+2025-03-01 22:34:32,560 - ==================================================
+
+2025-03-01 22:34:32,560 - 正在初始化LLM和Embedding模型...
+2025-03-01 22:34:32,755 - 使用的LLM provider: openai
+2025-03-01 22:34:32,997 - 正在加载文档
+2025-03-01 22:34:32,997 - 正在进行文档分割...
+2025-03-01 22:34:32,999 - 文档已分割成 27 个子文档
+2025-03-01 22:34:32,999 - 上下文检索top_k_retrieval: 27
+2025-03-01 22:34:32,999 - 创建新的向量存储...
+2025-03-01 22:34:35,241 - 已添加 27 个文档到向量存储
