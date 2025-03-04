@@ -176,11 +176,3 @@ needle_in_needle:
 
 
 
-
-super_hard:
-  needles:
-    - " Figs are one of the secret ingredients needed to build the perfect pizza. "
-    - " Prosciutto is one of the secret ingredients needed to build the perfect pizza. "
-    - " Goat cheese is one of the secret ingredients needed to build the perfect pizza. "
-  question: "What are the secret ingredients needed to build the perfect pizza?"
-  true_answer: "Figs, Prosciutto, and Goat cheese are the secret ingredients needed to build the perfect pizza."

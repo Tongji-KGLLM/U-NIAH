@@ -306,7 +306,7 @@ all_experiments_data = visualizer.process_all_experiments()
 两个脚本都会在结果目录和`visualizations`子目录中生成热力图，并将所有实验数据汇总到CSV文件中，方便进一步分析。
 
 ## 其他
-本项目是基于NIAH框架的改进版本，感谢原作者的贡献。
+本项目是基于[NIAH框架](https://github.com/gkamradt/LLMTest_NeedleInAHaystack)的改进版本，感谢原作者的贡献。
 在兼容性上，本框架对原始NIAH做了一些额外的改进，因此和原始版本相比，可能存在一些差异。
 具体包括：
 1. 在Context构建过程中，Needle只能插入在完整的句子（例如".", "?",".....。" 等）后面。因为在测试的时候发现，在一些特殊场景下，插入Neddle前半部分和被截断的语句组成了新的具有特定含义的词组，导致模型理解出现偏差。
