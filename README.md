@@ -1,6 +1,7 @@
 # U-NIAH
 
 U-NIAH (Unified Needle In A Haystack) 是一个用于测试大语言模型长文本理解能力的框架。它通过在长文本中插入特定的"针"（关键信息），然后测试模型是否能够准确检索和理解这些信息。
+详细的内容请参考论文[U-NIAH: Unified RAG and LLM Evaluation for Long Context Needle-In-A-Haystack](https://arxiv.org/abs/2503.00353)
 
 ## 主要功能
 
@@ -312,3 +313,12 @@ all_experiments_data = visualizer.process_all_experiments()
 1. 在Context构建过程中，Needle只能插入在完整的句子（例如".", "?",".....。" 等）后面。因为在测试的时候发现，在一些特殊场景下，插入Neddle前半部分和被截断的语句组成了新的具有特定含义的词组，导致模型理解出现偏差。
 2. 在拼接Haystack时，强制按照首字母的顺序拼接txt文件。目的是为了在后期拓展补充语料（例如1M+Token）时，保证和之前的测试的Context是保持一致。
 
+## Citation
+```
+@article{gao2025u,
+  title={U-NIAH: Unified RAG and LLM Evaluation for Long Context Needle-In-A-Haystack},
+  author={Gao, Yunfan and Xiong, Yun and Wu, Wenlong and Huang, Zijing and Li, Bohan and Wang, Haofen},
+  journal={arXiv preprint arXiv:2503.00353},
+  year={2025}
+}
+```
